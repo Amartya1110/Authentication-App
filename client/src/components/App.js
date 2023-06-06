@@ -1,25 +1,14 @@
-import {createBrowserRouter, RouterProvider} from "react-router-dom"
+import { Outlet } from "react-router-dom"
 
-const appRouter = createBrowserRouter([
-    {
-        path: "/",
-        element: <div>Home Page</div>
-    },
-    {
-        path: "/register",
-        element: <div>Register Page</div>
-    }
-])
+
 
 const App = () => {
     return(
-        <RouterProvider router={appRouter}>
-            <h1 className="bg-orange-600" >React Frontend</h1>
-        </RouterProvider>
+        <div className="min-h-screen bg-slate-900 flex justify-center items-center">
+            <Outlet />
+        </div>
     )
 }
-
-
 
 
 

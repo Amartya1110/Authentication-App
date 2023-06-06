@@ -1,0 +1,7 @@
+.glass {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 1em 7px rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(7.1px);
+
+    @apply flex flex-col items-center py-6 px-9 rounded-lg border-gray-50 shrink-0
+}

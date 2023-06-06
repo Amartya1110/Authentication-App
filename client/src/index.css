@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities; */
 
+
+*, *::before, *::after {
+    color: #ffffff;
+    font-family: sans-serif;
+    outline: none;
+}
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
-@import "tailwindcss/utilities"
+@import "tailwindcss/utilities";
+
