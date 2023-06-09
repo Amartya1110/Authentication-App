@@ -4,12 +4,34 @@
 
 
 *, *::before, *::after {
-    color: #ffffff;
     font-family: sans-serif;
     outline: none;
 }
 
+#toast-root {
+    /* background-color: red; */
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    z-index: 10;
+
+    width: 25vw;
+    min-width: 300px;
+
+    overflow: hidden;
+}
+
+
+
+
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+/* .toast {
+    padding: 0.5em 1em;
+    background-color: red;
+
+} */
 

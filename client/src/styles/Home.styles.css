@@ -5,3 +5,7 @@
 
     @apply flex flex-col items-center py-6 px-9 rounded-lg border-gray-50 shrink-0
 }
+
+.home *, *::before, *::after {
+    color: #ffffff;
+}
