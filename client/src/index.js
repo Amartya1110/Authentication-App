@@ -13,6 +13,7 @@ import Password from "./components/Password"
 import PasswordReset from "./components/PasswordReset"
 import PageNotFound from "./components/PageNotFound"
 import Home from "./components/Home"
+import RecoveryOTP from "./components/RecoveryOTP"
 
 const appRouter = createBrowserRouter([
     {
@@ -38,6 +39,10 @@ const appRouter = createBrowserRouter([
             {
                 path: "/profile",
                 element: <UserProfile />,
+            },
+            {
+                path: "/recovery",
+                element: <RecoveryOTP />,
             },
             {
                 path: "/reset",

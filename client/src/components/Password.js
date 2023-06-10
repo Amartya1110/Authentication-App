@@ -59,7 +59,7 @@ const Password = () => {
                 </div>
                 <div className="flex">
                     <h1 className="mr-2">Forgot Password?</h1>
-                    <Link to="/reset" className="text-green-200 hover:underline" >Reset Now!</Link>
+                    <Link to="/recovery" className="text-green-200 hover:underline" >Reset Now!</Link>
                 </div>
             </form>
 
