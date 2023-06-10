@@ -59,6 +59,7 @@
 
 .toast-msg {
     padding-left: 0.5em;
+    color: inherit;
 }
 
 .toast>button {

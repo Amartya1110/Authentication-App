@@ -6,6 +6,6 @@
     @apply flex flex-col items-center py-6 px-9 rounded-lg border-gray-50 shrink-0
 }
 
-.home *, *::before, *::after {
+.home h1,h3 {
     color: #ffffff;
 }
