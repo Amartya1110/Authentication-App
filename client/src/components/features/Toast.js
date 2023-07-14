@@ -41,7 +41,7 @@ const Toast = ({id, message, type, removeToast}) => {
     useEffect(() => {
         const timerID = setTimeout(() => {
             removeToast(id)
-        }, 6000)
+        }, 5999)
 
         return () => {
             clearTimeout(timerID)

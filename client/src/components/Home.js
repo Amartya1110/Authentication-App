@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 import '../styles/Home.styles.css'
 import avatar from "../assets/user.png"
-import { useToast } from "./features/ToastContext"
+import { useToast } from "./features/ToastContext.js"
 
 const Home = () => {
     const {addToast} = useToast()
